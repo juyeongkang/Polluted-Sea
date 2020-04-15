@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #78909c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #EEAEA0 !important;
+  }
+}
+
+h1 {
+  letter-spacing: 8px;
+  color: #fff;
+  text-shadow: 2px 2px black;
+  font-size: 200px;
+}
+
+a {
+  text-shadow: 2px 2px black;
+  font-family: 'Kanit', sans-serif;
+
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  color: #fff;
+  text-shadow: 2px 2px black;
+
+}
+
+p2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  color: black;
+  text-shadow: 2px 2px #EEAEA0;
+}
+
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
+
+.container1 {
+  border-radius: 25px;
+  border: 2px solid #fff;
+  padding: 20px;
+}
+
+.container2 {
+  position: absolute;
+  left:0;
+  top: 50%;
+  width: 100%;
+  background-color: white;
+}
+
+.container3 {
+  border-radius: 25px;
+  border: 2px solid #EEAEA0;
+  padding: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.btn {
+  border-radius: 9px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 135%;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  padding: 10px 20px;
+  border: solid #DC143C 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.btn:hover {
+  color: #fff;
+  border: solid #fff 3px;  
+}
+
+
+@media only screen and (max-width: 767px) {
+  .notfound .notfound-404 {
+    height: 110px;
+    line-height: 110px;
+  }
+  .notfound .notfound-404 h1 {
+    font-size: 120px;
+  }
+}
